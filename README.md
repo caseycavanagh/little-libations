@@ -1,2 +1,2 @@
 # little-libations
-a cocktail project. coming soon.
+a cocktail resource for the home bartender.
