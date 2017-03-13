@@ -1,35 +1,138 @@
 <!DOCTYPE html>
-<html>
-
+<html >
 <head>
-    <title>Little Libations Cocktail Co.</title>
-    <style>
-        body {
-            background: #27282c;
-            color: #fff;
-        }
-        .container {
-            height: 100vh;
-            display: flex;
-        }
-        .logo {
-            margin: 0 auto;
-            vertical-align: center;
-            width: 50%;
-            max-width: 250px;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>🍸 Little Libations Cocktail Club</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Little Libations Cocktail Club is an innovative cocktail proejct by Casey Cavanagh. It will be launching soon in Alexandria, Virginia.">
+  <link rel="shortcut icon" href="favicon.ico" />
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+<link href="https://use.fontawesome.com/d8c72632ed.css" media="all" rel="stylesheet">
+<style>
+body {
+  margin: 0 auto;
+	background: #27282c;
+	color: #fff;
+	font-family: 'Inconsolata', monospace;
+	text-align: left;
+}
+
+.intro {
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 375px;
+}
+
+.fa {
+    font-size: 28px !important;
+    padding-right: 0.5em;
+		color: #929292;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 1.25;
+}
+
+.logo {
+    margin: 0 auto;
+    max-width: 100px;
+    padding-bottom: 25px;
+}
+
+input {
+	color: white;
+		font-size: 18px;
+		line-height: 2;
+    display: block;
+    width: 100%;
+	margin-top: 10px;
+    -webkit-appearance: none;
+    resize: vertical;
+    background-color: transparent;
+	  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+	font-family: 'Inconsolata', monospace;
+	color: #ffd788;
+	font-size: 18px;
+}
+
+#mc_embed_signup input.button {
+    display: block;
+    width: 35%;
+    min-width: 90px;
+    margin: 20px 0px 40px;
+}
+
+#mc_embed_signup .button {
+   display: inline-block;
+  width: 250px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+	cursor: pointer;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #27282c inset;
+	-webkit-text-fill-color: #ffd788 !important;
+
+}
+
+footer {
+		font-size: 13px;
+		padding-top: 150px;
+    position: relative;
+	  color: #9a9a9a;
+}
+</style>
+
 </head>
 
 <body>
-    <div class="container">
-        <svg class="logo" version="1.1" viewbox="667 100 105 104" xmlns="http://www.w3.org/2000/svg">
+  <section class="intro">
+	<svg class="logo" version="1.1" viewBox="667 100 105 104" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd" id="Group-2" stroke="none" stroke-width="1" transform="translate(668.000000, 100.000000)">
                 <path d="M100.93022,99.1962146 C100.759524,99.2745669 97.2636543,99.8233149 90.0161543,98.7255371 C78.9313935,96.9217431 66.9940022,92.2947295 58.2967196,88.2950981 C61.0467848,84.8729626 63.7228065,81.0322905 66.3115022,77.0360412 C64.7201326,76.744052 63.1123717,76.3996401 61.4961326,76.0081604 C59.059763,79.6988921 56.5646109,83.2106537 54.0332848,86.3345995 C33.8247848,77.4723339 20.693937,89.6282146 24.1047413,97.9411686 C25.6393065,101.470122 29.6469804,103.509537 35.3596326,103.509537 C40.902437,103.509537 46.5300239,100.686036 52.498437,94.804258 C53.35135,93.9415371 53.35135,92.6084206 52.4133717,91.7456997 C51.4753935,90.961613 49.9405457,90.961613 49.0879152,91.9026862 C45.5064152,95.3532878 40.5610457,99.1962146 35.3596326,99.1962146 C31.7786978,99.1962146 29.2208065,98.1765073 28.5383065,96.3727133 C26.6629152,91.9026862 36.2125457,82.5703068 53.2657196,90.8046266 C65.800263,96.7650385 83.7914152,103.744594 97.9458717,103.744594 C100.162654,103.744594 101.441459,103.509537 101.78285,103.430903 C102.891241,103.273917 103.743872,102.411196 103.743872,101.313418 C103.743872,99.9803014 102.379437,98.960594 100.93022,99.1962146" fill="#FFFFFF" id="Fill-4"></path>
                 <path d="M72.5034587,4.59524986 C72.7592196,4.59524986 73.0146978,4.67360217 73.2710239,4.98729322 C73.6121326,5.45768889 73.782263,6.3990439 73.782263,7.41818753 C73.782263,15.8884098 66.0232413,21.9266103 57.4110239,23.4953474 C59.3720457,20.1230981 68.4107196,4.59524986 72.5034587,4.59524986 M93.6651978,34.6752065 C93.9209587,34.6752065 94.176437,34.7535588 94.432763,35.0672499 C94.7738717,35.5376455 94.9440022,36.4790005 94.9440022,37.4981442 C94.9440022,45.9683664 87.1849804,52.0065669 78.572763,53.5753041 C80.5337848,50.2027729 89.5724587,34.6752065 93.6651978,34.6752065 M27.9699804,67.3782743 C28.8228935,66.5155534 28.8228935,65.1827187 27.8849152,64.3199978 C26.946937,63.5359111 25.4120891,63.5359111 24.5594587,64.4767024 C20.9779587,67.9273041 16.9945891,70.0008217 11.7931761,70.0008217 C8.2122413,70.0008217 5.65435,68.9813962 4.97185,67.1776022 C3.09617609,62.7072932 12.6460891,53.3749138 29.699263,61.6095154 C38.0028717,65.5578515 48.7004587,69.9514992 59.0914152,72.4692011 C60.7076543,72.8606808 62.3154152,73.2053745 63.9067848,73.4970818 C64.0955674,73.5317485 64.282937,73.5624694 64.471437,73.5957268 C65.124263,73.720865 65.7765239,73.8437485 66.424263,73.9491577 C66.4310457,73.9387295 66.4375457,73.9277377 66.4440457,73.9170276 C69.1765891,74.3211902 71.8404587,74.5494829 74.3794152,74.5494829 C76.5961978,74.5494829 77.8750022,74.3141442 78.2161109,74.23551 C79.3247848,74.0788054 80.1774152,73.2158027 80.1774152,72.1180249 C80.1774152,70.7849084 78.8129804,69.7654829 77.363763,70.0008217 C77.2139804,70.0695913 74.49585,70.5008108 68.9250674,69.8607458 C71.3275239,65.8785886 73.6386978,61.9119328 75.8441761,58.2023176 C87.1849804,57.5746537 99.6336109,49.8896455 99.6336109,37.4981442 C99.6336109,33.576865 97.5875239,30.361884 93.6651978,30.361884 C87.5258065,30.361884 81.6424587,39.2235859 73.0305239,53.8889951 C67.2322413,53.4969518 63.3101978,50.6737322 63.3101978,45.183716 C63.3101978,42.831174 64.3332413,40.4783501 66.294263,38.2041604 C67.0618283,37.2630873 66.8911326,35.9299707 65.8680891,35.2242363 C64.8450457,34.4395859 63.3955457,34.5965724 62.628263,35.5376455 C59.9847413,38.5178515 58.6205891,41.8901008 58.6205891,45.183716 C58.6205891,52.1635534 63.3955457,56.7905669 70.6433283,57.9672607 C68.5220674,61.5821767 66.3089587,65.3537973 64.025763,69.0915967 C63.2200457,68.9320737 62.4115022,68.7593041 61.6015457,68.5758244 C51.981263,66.3963339 42.1705022,62.521277 34.730263,59.099987 C41.977763,50.0810168 48.7140239,38.1607566 54.682437,28.122361 C66.0232413,27.494697 78.4718717,19.8096889 78.4718717,7.41818753 C78.4718717,3.4969084 76.4257848,0.281927371 72.5034587,0.281927371 C66.3640674,0.281927371 60.4807196,9.14362927 51.8687848,23.8090385 C46.0705022,23.4169951 42.1484587,20.5937756 42.1484587,15.1037593 C42.1484587,12.7512173 43.1715022,10.3983935 45.1325239,8.12420379 C45.9000891,7.18313062 45.7293935,5.85001409 44.70635,5.14427967 C43.6833065,4.35962927 42.2338065,4.51661572 41.4665239,5.45768889 C38.8230022,8.43789485 37.45885,11.8101442 37.45885,15.1037593 C37.45885,22.0835967 42.2338065,26.7106103 49.4815891,27.8873041 C43.6833065,37.7687133 37.2030891,48.8259707 30.4668283,57.1392065 C10.2583283,48.2772228 -2.87251957,60.4328217 0.538284783,68.7457756 C2.07285,72.2750114 6.08052391,74.3141442 11.7931761,74.3141442 C17.3359804,74.3141442 22.0015674,73.2603339 27.9699804,67.3782743" fill="#FFFFFF" id="Fill-1"></path>
             </g>
         </svg>
-    </div>
-</body>
+	<h1><strong>Little Libations</strong> is a cocktail experiment in development.<br><strong>Please stay in touch.</strong></h1>
 
+	<!-- Begin MailChimp Signup Form -->
+<!-- <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+	 -->
+<div id="mc_embed_signup">
+<form action="//littlelibations.us15.list-manage.com/subscribe/post?u=b049c0c5ed0705782497fb03f&amp;id=d66b4833a9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b049c0c5ed0705782497fb03f_d66b4833a9" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+<section class="social">
+	<a href="http://www.facebook.com/littlelibations" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+<a href="http://www.instagram.com/caseyjcavanagh" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="http://www.twitter.com/littlelibations" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	</section>
+	<footer>
+  <p class="small grey">© 2017 Little Libations • Made with 🍸 in Virginia</p>
+</footer>
+</section>
+
+
+</body>
 </html>
