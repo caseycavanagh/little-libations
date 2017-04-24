@@ -1,3 +1,3 @@
 # little-libations
 
-Little Libations Cocktail Club is an innovative cocktail project by Casey Cavanagh. It will be launching soon in Alexandria, Virginia.
+Little Libations is a cocktail project by Casey Cavanagh. See you soon.
